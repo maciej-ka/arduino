@@ -10,5 +10,5 @@ void loop() {
   Serial.print("Sensor = ");
   // possible: DEC, HEX, BIN, OCT
   Serial.println(sensorValue, DEC);
-  delay(10);
+  delay(300);
 }
